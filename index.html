@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/assets/images/TrinityJeneraLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Trinity Lutheran Lutheran Church & School</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Trinity Lutheran Church & School</a>
+            <button class="navbar-toggler" id="menu-toggle">
+                <i id="hamburger" class="fas fa-bars"></i>
+            </button>
+            <ul class="navbar-menu" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#church">Church</a></li>
+                <li><a href="#school">School</a></li>
+                <li><a href="#contact-form">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="banner-text">
+            <h2 class="mission-header">Our Mission</h2>
+            <p class="mission-paragraph">
+                Trinity Lutheran School exists to assist families in the
+                Christ-centered education of their children: to guide them to
+                know Jesus as their Savior, grow in faith, and share Him
+                with others.
+            </p>
+        </div>
+        
+
+        <section id="about">
+            <h2 class="section-title">Our Mission Statement</h2>
+            <p class="mission-statement">At Trinity Lutheran, our mission is to grow spiritually, encourage worship, proclaim the Gospel, evangelize, and stand firmly behind the sanctity of life, marriage, and the family.</p>
+            <h5 class="mission-subtitle">The Scriptural basis for our Mission</h5>
+            <ul class="mission-list">
+                <li><span class="bullet-point">1.</span> Grow spiritually by making Christ the cornerstone of each family through personal Bible study, personal prayer, youth and adult Bible study, Sunday School, Vacation Bible School, and all Bible study opportunities, as well as taking every occasion to prepare ourselves for service in God’s kingdom. (2 Peter 3:18)</li>
+                <li><span class="bullet-point">2.</span> Encourage each other to attend worship services regularly and to encourage members to participate often in the sacrament of the altar and to have our children baptized. (Hebrews 10:25; 1 Corinthians 11:25-26; Matthew 28:19-20)</li>
+                <li><span class="bullet-point">3.</span> Proclaim the Law and Gospel to our grade school-aged children through our Lutheran elementary school. Also, use the school as a means of outreach to the community. (Proverbs 22:6)</li>
+                <li><span class="bullet-point">4.</span> To foster a sense of urgency for the lost and to seize every opportunity the Lord provides to evangelize to lost souls. (2 Corinthians 6:1-2)</li>
+                <li><span class="bullet-point">5.</span> Stand firmly behind the sanctity of life, marriage, and the family. (Genesis 1:27-28; Matthew 19:5-6)</li>
+            </ul>
+        </section>
+        
+        <section id="church" class="card church">
+            <div class="card-content">
+                <img src="/assets/images/Church_Front.jpeg" alt="Trinity Lutheran Church">
+                <h3>Trinity Lutheran Church</h3>
+                <p>Join us for Sunday Morning Worship at 8:00 AM and 10:30 AM. We also offer Sunday School from 9:20 to 10:10 AM and Adult Bible Class from 9:20 to 10:05 AM.</p>
+                <address>Address: 301 N. Main St. Jenera, OH 45841</address>
+                <a href="#" class="learn-more-btn">Learn More</a>
+            </div>
+        </section>
+    
+        <section id="school" class="card school">
+            <div class="card-content">
+                <img src="/assets/images/trinityschool.jpg" alt="Trinity Lutheran School">
+                <h3>Trinity Lutheran School</h3>
+                <p>Our school day begins at 8:15 AM and dismisses at 3:15 PM. Enroll your child today for a quality education.</p>
+                <address>Address: 301 N. Main St. Jenera, OH 45841</address>
+                <a href="#" class="enroll-btn">Enroll Today</a>
+            </div>
+        </section>
+    </main>
+
+    <hr><br>
+
+    <form id="contact-form">
+        <input type="hidden" name="submitted" value="true" />
+        <fieldset>
+            <legend>Contact Us</legend>
+    
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name" name="name" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter Your Email" name="email" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Enter Your Phone Number" name="phone" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Leave a message detailing your request..." rows="6" name="message" required></textarea>
+            </div>
+    
+            <button type="submit" class="submit-button">Submit</button>
+        </fieldset>
+    </form>
+    
+    <br><br>
+
+    <button id="back-to-top">
+        <i class="fas fa-arrow-up"></i> Back To Top
+    </button>
+    <br>
+    
+    <footer>
+        <h3>Trinity Lutheran Church and School</h3>
+        <div id="footer-content">
+            <div id="social-links">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i> Resources</a></li>
+                </ul>
+            </div>
+            <div id="address-info">
+                <address>
+                    301 N. Main St. Jenera, OH 45841
+                </address>
+                <p>Contact: contact@trinitychurchschool.org</p>
+            </div>
+        </div>
+        <p>&copy; Trinity Lutheran Church &amp; School, Created by Jonah Kroll</p>
+    </footer>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>

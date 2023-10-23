@@ -1,0 +1,470 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+    background-color: #f5f5f5; /* Light Gray Background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark Text Color */
+}
+
+/* Style the header with a dark blue background and white text */
+header {
+    background-color: #001f3f; /* Dark Blue */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo Styles */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0; /* Add padding to the right side for spacing */
+}
+
+/* Navbar Menu Styles */
+.navbar-menu {
+    display: flex; /* Use flex display for horizontal alignment */
+    justify-content: space-between; /* Distribute the menu items evenly along the container */
+    align-items: center; /* Vertically center the menu items */
+    margin: 0; /* Remove margin to create a clean look */
+    padding: 0; /* Remove padding to create a clean look */
+}
+
+/* Style for individual menu items */
+.navbar-menu li {
+    list-style: none; /* Remove list-style bullets, if applicable */
+    font-size: 16px; /* Set the font size */
+    font-weight: 400; /* Set the font weight */
+    text-transform: uppercase; /* Transform text to uppercase */
+    color: #333; /* Adjust the text color to your preference */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0; /* Remove margin to create a clean look */
+    padding: 0; /* Remove padding to create a clean look */
+}
+
+.navbar-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 16px; /* Add spacing within each menu item */
+}
+
+/* Add a separator between menu items */
+.navbar-menu li:not(:last-child) a::after {
+    content: "|";
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* Adjust the separator styles */
+.navbar-menu li:not(:last-child) a::after {
+    content: "|";
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+
+/* Style for hover effect on menu items */
+.navbar-menu li a:hover {
+    color: #007BFF; /* Change the text color on hover */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Mission Section Styles */
+.mission-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Adjust the color to match your design */
+}
+
+.mission-paragraph {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    color: #666; /* Adjust the color to match your design */
+}
+
+
+#about {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.mission-statement {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.mission-subtitle {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bullet-point {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.mission-list li {
+    margin-bottom: 10px;
+}
+
+/* Additional styles can be added as needed */
+
+
+/* Hamburger Menu Styles */
+#menu {
+    position: fixed;
+    text-align: right;
+    list-style: none;
+    position: relative;
+    top: -48px;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style the banner text */
+.banner-text {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner-text h2 {
+    color: #001f3f; /* Dark Blue */
+    font-size: 28px; /* Larger font size for the main heading */
+}
+
+/* Style the sections for Church and School */
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a subtle border around images */
+}
+
+section h3 {
+    color: #001f3f; /* Dark Blue */
+    font-size: 24px; /* Larger font size for section headings */
+    margin-top: 10px;
+}
+
+section p {
+    color: #444; /* Slightly lighter text color for section content */
+    font-size: 16px;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card address {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #001f3f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card.church {
+    border-color: #444;
+}
+
+.card.school {
+    border-color: #444;
+    background-color: #f0f0f0;
+}
+
+
+/* Form Styles */
+#contact-form {
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Form Field Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+/* Submit Button Styles */
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+#back-to-top {
+    display: inline-block;
+    padding: 5px 10px; /* Adjust padding for better button size */
+    background-color: #000; /* Use your preferred button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-links li {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+#social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#address-info {
+    text-align: right;
+}
+
+address {
+    font-style: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Copyright Styles */
+footer p {
+    margin-top: 20px;
+}
+
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+    #contact-form {
+        max-width: 600px; /* Wider form for larger screens */
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* Increase margin for better spacing */
+    }
+
+    label {
+        font-size: 18px; /* Larger font size for labels */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-size: 16px; /* Larger font size for form fields */
+    }
+
+    .submit-button {
+        padding: 15px 30px; /* Larger button for better usability */
+    }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+    }
+
+    .card-church,
+    .card-school {
+        width: 100%; /* Full width for individual cards on smaller screens */
+    }/* Show on smaller screens */
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .menu-open .navbar-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hamburger {
+        color: #ffffff;
+    }
+    
+    /* Logo and menu items for mobile */
+    .logo {
+        padding: 10px 0; /* Adjust padding for spacing */
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column; /* Stack menu items vertically for mobile */
+        align-items: center; /* Center align menu items */
+        margin: 10px 0; /* Add margin for spacing */
+        padding-top: 20px; /* Add padding to the top for space from logo */
+    }
+
+    .navbar-menu li {
+        margin: 8px 0; /* Adjust margin for spacing between menu items */
+    }
+
+    /* Add a separator between menu items */
+.navbar-menu li:not(:last-child) a::after {
+    content: "|";
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* Adjust the separator styles */
+.navbar-menu li:not(:last-child) a::after {
+    content: "";
+    margin-left: 10px;
+    color: #fff;
+}
+
+    
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    #footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #social-links ul {
+        margin-top: 20px;
+    }
+}
