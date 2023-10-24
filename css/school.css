@@ -1,0 +1,679 @@
+/* Page Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Set the font family to your preference */
+    background-color: #F5F5F5; /* Page body background color */
+    color: #333; /* Page text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #0056B3; /* Header background color */
+    padding: 10px 0; /* Header padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 24px; /* Logo font size */
+    color: #fff; /* Logo text color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Add left margin for spacing */
+}
+
+/* Navbar Toggler Styles */
+.navbar-toggler {
+    display: none; /* Hide the navbar toggler on larger screens */
+}
+
+/* Hamburger Icon Styles */
+#hamburger {
+    color: #fff; /* Hamburger icon color */
+    font-size: 24px; /* Hamburger icon size */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Navbar Menu Styles */
+.navbar-menu {
+    list-style: none; /* Remove list-style bullets */
+    display: flex;
+    margin-right: 20px; /* Add right margin for spacing */
+}
+
+.navbar-menu li {
+    margin-left: 20px; /* Add spacing between menu items */
+}
+
+.navbar-menu li a {
+    color: #fff; /* Menu item text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Menu item font weight */
+}
+
+.navbar-menu a:hover {
+    color: #ffc87b; /* Change link color when hovered over */
+}
+
+.navbar-toggler {
+    display: none; /* Hide the navbar toggler on desktop */
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+/* Enrollment Section Styles */
+.enrollment-section {
+    background-color: #F5F5F5; /* Apply your desired background color */
+    padding: 20px 0; /* Add padding as needed */
+}
+
+/* Enrollment Card Styles */
+.enrollment-card {
+    background-color: #FFFFFF; /* Card background color */
+    border: 1px solid #CCCCCC; /* Card border */
+    border-radius: 5px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    text-align: center; /* Center-align card content */
+}
+
+/* Enrollment Title Styles */
+.enrollment-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* Enrollment Description Styles */
+.enrollment-description {
+    font-size: 16px; /* Description font size */
+    margin: 20px 0; /* Add margin as needed */
+    color: #666; /* Description text color */
+}
+
+/* Enrollment Button Styles */
+.enrollment-button {
+    background-color: #007BFF; /* Button background color */
+    color: #FFF; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    padding: 10px 20px; /* Button padding */
+    font-weight: bold; /* Button font weight */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.enrollment-button:hover {
+    background-color: #0056B3; /* Button color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0056B3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-links li {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+#social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#address-info {
+    text-align: right;
+}
+
+address {
+    font-style: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Copyright Styles */
+footer p {
+    margin-top: 20px;
+}
+
+/* Preschool Section Styles */
+.preschool-section {
+    background-color: #f5f5f5; /* Background color */
+    padding: 20px 0; /* Padding for spacing */
+}
+
+/* Preschool Card Styles */
+.preschool-card {
+    background-color: #fff; /* Card background color */
+    border: 1px solid #ccc; /* Card border */
+    border-radius: 5px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    text-align: left; /* Text alignment */
+}
+
+/* Preschool Title Styles */
+.preschool-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* Preschool Text Styles */
+.preschool-text {
+    font-size: 16px; /* Text font size */
+    color: #666; /* Text color */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Schedule Table Styles */
+.schedule-table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Table Header Styles */
+.schedule-table th {
+    background-color: #007BFF; /* Header background color */
+    color: #fff; /* Header text color */
+    font-weight: bold; /* Header font weight */
+    padding: 10px; /* Header padding */
+    text-align: left; /* Header text alignment */
+}
+
+/* Table Cell Styles */
+.schedule-table td {
+    border: 1px solid #ccc; /* Cell border */
+    padding: 10px; /* Cell padding */
+}
+
+/* Highlight the strong tag in the final paragraph */
+.preschool-text strong {
+    color: #007BFF; /* Strong text color */
+}
+
+/* Preschool Button Styles */
+.preschool-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    padding: 10px 20px; /* Button padding */
+    font-weight: bold; /* Button font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.preschool-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.preschool-button:hover {
+    background-color: #0056B3; /* Button color on hover */
+}
+
+/* School Section Styles */
+.school-section {
+    background-color: #F5F5F5; /* Apply your desired background color */
+    padding: 20px 0; /* Add padding as needed */
+}
+
+/* School Card Styles */
+.school-card {
+    background-color: #FFFFFF; /* Card background color */
+    border: 1px solid #CCCCCC; /* Card border */
+    border-radius: 5px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    text-align: left; /* Align card content to the left */
+}
+
+/* School Title Styles */
+.school-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* School Text Styles */
+.school-text {
+    font-size: 16px; /* Text font size */
+    margin: 20px 0; /* Add margin as needed */
+    color: #666; /* Text color */
+}
+
+/* Staff Section Styles */
+.staff-section {
+    background-color: #F5F5F5;
+    padding: 20px 0;
+}
+
+/* Staff Card Styles */
+.staff-card {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Staff Title Styles */
+.staff-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Teacher List Styles */
+.teacher-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teacher-list li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+}
+
+ /* Style the teacher names to make them clickable */
+.teacher-name {
+    cursor: pointer;
+    text-decoration: underline; /* Add underline to teacher names */
+    color: #007BFF;
+}
+
+/* Style the teacher bios without underline */
+.teacher-bio {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none !important; /* Remove underline for bios */
+}
+
+/* Calendar Section Styles */
+.calendar-section {
+    background-color: #F5F5F5; /* Background color for the calendar section */
+    padding: 20px 0; /* Padding as needed */
+    text-align: center; /* Center-align content */
+}
+
+/* Calendar Title Styles */
+.calendar-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* Calendar Description Styles */
+.calendar-description {
+    font-size: 16px; /* Description font size */
+    margin: 20px 0; /* Margin as needed */
+    color: #666; /* Description text color */
+}
+
+/* Calendar Iframe Styles */
+.calendar-iframe {
+    display: block; /* Display the calendar on larger screens */
+    width: 100%; /* Make the iframe responsive to its container width */
+    max-width: 100%; /* Set a maximum width to prevent horizontal scrolling */
+    height: 400px; /* Set a fixed or desired height for the calendar */
+    border: none; /* Remove iframe border */
+}
+
+/* Extracurricular Section Styles */
+.extracurricular-section {
+    background-color: #F5F5F5; /* Apply your desired background color */
+    padding: 20px 0; /* Add padding as needed */
+}
+
+/* Extracurricular Card Styles */
+.extracurricular-card {
+    background-color: #FFFFFF; /* Card background color */
+    border: 1px solid #CCCCCC; /* Card border */
+    border-radius: 5px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    text-align: left; /* Align card content to the left */
+}
+
+/* Extracurricular Title Styles */
+.extracurricular-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* Extracurricular List Styles */
+.extracurricular-card ul {
+    list-style: disc; /* Use disc bullet points for lists */
+    margin-left: 20px; /* Add left margin for spacing */
+}
+
+/* Activity Image Styles */
+.activity-image {
+    text-align: center; /* Center-align the images */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.activity-image img {
+    max-width: 850px; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Add a subtle border to images */
+    border-radius: 5px; /* Apply border radius to images */
+}
+
+/* Resources Section Styles */
+.resources-section {
+    padding: 20px 0; /* Add padding as needed */
+    background-color: #F5F5F5; /* Apply your desired background color */
+    text-align: center; /* Center-align the content */
+}
+
+/* Card Styles for Resources Section */
+.resources-card {
+    background-color: #FFFFFF; /* Card background color */
+    border: 1px solid #CCCCCC; /* Card border */
+    border-radius: 5px; /* Card border radius */
+    padding: 20px; /* Card padding */
+    text-align: left; /* Left-align card content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Resource Title Styles */
+.resources-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title text color */
+}
+
+/* Resource Link Styles */
+.resources-card a {
+    text-decoration: none; /* Remove the default link underline */
+    color: #007BFF; /* Set the link color to your preference */
+}
+
+/* Resource Link Hover Styles */
+.resources-card a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.resource-content {
+    display: none;
+}
+
+#back-to-top {
+    display: none; /* Initially hide the button */
+    padding: 5px 10px; /* Adjust padding for better button size */
+    background-color: #0056B3; /* Use your preferred button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .enrollment-section {
+        padding: 20px 10px; /* Adjust padding for small screens */
+    }
+
+    .enrollment-card {
+        padding: 10px; /* Adjust card padding for small screens */
+    }
+
+    .enrollment-title {
+        font-size: 20px; /* Adjust title font size for small screens */
+    }
+
+    .enrollment-description {
+        font-size: 14px; /* Adjust description font size for small screens */
+        margin: 10px 0; /* Adjust description margin for small screens */
+    }
+
+    .enrollment-button {
+        padding: 8px 16px; /* Adjust button padding for small screens */
+    }
+
+    .navbar-toggler {
+        display: block; /* Display the mobile menu button */
+    }
+    .navbar-menu {
+        display: none; /* Hide the menu by default */
+        background-color: #0056B3;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 1;
+    }
+    .navbar-menu.active {
+        display: flex; /* Show the menu when active */
+        flex-direction: column;
+    }
+    .navbar-menu li {
+        margin: 10px 0; /* Add spacing between menu items */
+    }
+    .navbar-menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* For larger screens */
+@media screen and (min-width: 769px) {
+    .navbar-toggler {
+        display: none; /* Hide the mobile menu button */
+    }
+    .navbar-menu {
+        display: flex; /* Display the menu as a horizontal list */
+    }
+    .navbar-menu li {
+        list-style: none;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .navbar-menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #social-links ul {
+        margin-top: 20px;
+    }
+
+    .school-card {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    
+    .school-title {
+        font-size: 20px; /* Decrease title font size for smaller screens */
+    }
+
+    .school-text {
+        font-size: 14px; /* Decrease text font size for smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .staff-card {
+        padding: 10px;
+    }
+
+    .staff-title {
+        font-size: 20px;
+    }
+
+    .teacher-bio {
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .teacher-name {
+        font-size: 16px;
+    }
+
+    .extracurricular-section h2 {
+        font-size: 20px; /* Adjust title font size for smaller screens */
+    }
+
+    .extracurricular-section p,
+    .extracurricular-section h3 {
+        font-size: 16px; /* Adjust font sizes for smaller screens */
+    }
+
+    .activity-image img {
+        max-width: 100%; /* Ensure images don't exceed their container */
+    }
+
+    .resources-title {
+        font-size: 20px; /* Adjust title font size for smaller screens */
+    }
+
+    .resources-section h4 {
+        font-size: 16px; /* Adjust links font size for smaller screens */
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+    /* For screens 768px and below (typical tablet and mobile screens) */
+@media (max-width: 768px) {
+    .preschool-title {
+        font-size: 20px; /* Reduce title font size for smaller screens */
+    }
+
+    .preschool-text {
+        font-size: 14px; /* Reduce text font size for smaller screens */
+    }
+
+    .schedule-table th {
+        font-size: 14px; /* Reduce header font size for smaller screens */
+    }
+
+    .schedule-table td {
+        font-size: 14px; /* Reduce cell font size for smaller screens */
+    }
+
+    .preschool-button {
+        padding: 8px 16px; /* Adjust button padding for smaller screens */
+    }
+}
+
+/* For screens 480px and below (typical mobile screens) */
+@media (max-width: 480px) {
+    .preschool-title {
+        font-size: 18px; /* Further reduce title font size for smaller screens */
+    }
+
+    .preschool-text {
+        font-size: 12px; /* Further reduce text font size for smaller screens */
+    }
+
+    .schedule-table th {
+        font-size: 12px; /* Further reduce header font size for smaller screens */
+    }
+
+    .schedule-table td {
+        font-size: 12px; /* Further reduce cell font size for smaller screens */
+    }
+
+    .preschool-button {
+        padding: 6px 12px; /* Further adjust button padding for smaller screens */
+    }
+}
+
+}
+
+/* Hide the calendar on screens with a maximum width of 768px (adjust the value as needed) */
+@media (max-width: 768px) {
+    .calendar-iframe {
+        display: none; /* Hide the calendar on mobile devices */
+    }
+}
+
+/* Style for the "Open Calendar" link */
+#open-calendar-link {
+    display: none; /* Hide the link on larger screens */
+    text-decoration: none; /* Remove the default link underline */
+    color: #007BFF; /* Set the link text color */
+    background-color: #fff; /* Set the background color for the button */
+    border: 1px solid #007BFF; /* Add a border with the desired button color */
+    border-radius: 5px; /* Add rounded edges to the button */
+    padding: 10px 20px; /* Add padding to make it look like a button */
+    font-weight: bold; /* Make the text bold */
+}
+
+#open-calendar-link:hover {
+    background-color: #0056B3; /* Change the background color when hovered over */
+    color: #ffffffff;
+}
+
+
+/* Show the "Open Calendar" link on screens with a maximum width of 768px (adjust the value as needed) */
+@media (max-width: 768px) {
+    #open-calendar-link {
+        display: block; /* Display the link on mobile devices */
+    }
+}
+
+/* Adjust styles for medium-sized screens */
+@media (max-width: 768px) {
+    .extracurricular-card {
+        padding: 15px; /* Reduce padding for medium screens */
+    }
+}
+
+/* Adjust styles for small screens (e.g., mobile devices) */
+@media (max-width: 576px) {
+    .extracurricular-card {
+        padding: 10px; /* Further reduce padding for small screens */
+    }
+
+    .extracurricular-title {
+        font-size: 20px; /* Decrease title font size for small screens */
+    }
+
+    .extracurricular-card ul {
+        margin-left: 15px; /* Reduce left margin for small screens */
+    }
+}
