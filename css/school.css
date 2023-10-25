@@ -676,4 +676,33 @@ footer p {
     .extracurricular-card ul {
         margin-left: 15px; /* Reduce left margin for small screens */
     }
+
+    /* Add a media query for screens with a maximum width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+    /* Reduce the padding for smaller screens */
+    .preschool-section {
+        padding: 10px 0;
+    }
+
+    /* Adjust the font size and spacing for the title and text */
+    .preschool-title {
+        font-size: 20px;
+    }
+
+    .preschool-text {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    /* Reduce the font size and padding for the table */
+    .schedule-table th {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .schedule-table td {
+        padding: 8px;
+    }
+}
+
 }
