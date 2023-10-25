@@ -28,35 +28,6 @@ resources.forEach((resource, index) => {
     });
 });
 
-
-
-
-// Add smooth scrolling for all anchor links
-document.querySelectorAll('a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
-
-// Show or hide the button based on scroll position
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) { // Adjust the scroll position to control when the button appears
-        backToTopButton.style.display = 'block';
-    } else {
-        backToTopButton.style.display = 'none';
-    }
-});
-
 // Smooth scroll back to the top when the button is clicked
 backToTopButton.addEventListener('click', () => {
     window.scrollTo({

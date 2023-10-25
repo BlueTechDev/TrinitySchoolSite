@@ -410,7 +410,9 @@ footer p {
 .resources-title {
     font-size: 24px; /* Title font size */
     font-weight: bold; /* Title font weight */
-    color: #333; /* Title text color */
+    color: #007BFF; /* Title text color */
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Resource Link Styles */
