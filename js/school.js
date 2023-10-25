@@ -20,13 +20,14 @@ resources.forEach((resource, index) => {
         const target = resource.getAttribute('data-target'); // Get the target identifier
         const content = document.querySelector(`[data-id="${target}"]`);
 
-        if (content.style.display === 'block') {
-            content.style.display = 'none';
-        } else {
+        if (content.style.display === 'none' || content.style.display === '') {
             content.style.display = 'block';
+        } else {
+            content.style.display = 'none';
         }
     });
 });
+
 
 
 
@@ -63,3 +64,12 @@ backToTopButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+function toggleBio(element) {
+    const bio = element.querySelector('.teacher-bio');
+    if (bio.style.display === 'none') {
+        bio.style.display = 'block';
+    } else {
+        bio.style.display = 'none';
+    }
+}
